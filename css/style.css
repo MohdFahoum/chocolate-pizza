@@ -13,8 +13,7 @@ nav{
 #rss{
     margin-left: 20px;
 }
-header,main,footer{
-}
+
 
 /* ---------HEADER-------- */
 header div {
@@ -40,10 +39,6 @@ div.stripes {
 }
 
 
-
-
-
-
 /* ---------MAIN-------- */
 #mainHead h1{
     font-size: 50px;
@@ -62,7 +57,6 @@ color:rgb(177, 174, 174);
 }
 #print{
     float: right;
-    /* display: inline-block; */
     font-size: xx-small;
     color: rgb(177, 174, 174);
 }
@@ -116,7 +110,7 @@ color:rgb(177, 174, 174);
     padding: 1px;
 }
 #field div {
-    /* display: block; */
+    
     display: inline-block;
     width: max-content;
     margin: 30px 0 30px 80px;
@@ -127,7 +121,60 @@ color:rgb(177, 174, 174);
     margin-right: 20px;
         height: 15px;
         width: 15px;
-        /* vertical-align: baseline; */
         background-color: #eee;
         border-radius: 50%;
 }
+
+/* -----------footer-------------- */
+footer{
+    position: relative;
+}
+#first div{
+    display: inline-block;
+    width: 100%;  
+}
+footer section button{
+    float: right;
+    margin: 20px;
+}
+footer section img{
+    float: left;
+    margin: 5px;
+}
+#second {
+    width: 100%;
+}
+#second p {
+    text-align: center;
+    border:  oldlace;
+}
+#second hr{
+    position: absolute;
+    width:80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+button{
+    background-color: rgb(165, 58, 58);
+    height: 80px;
+    width: 250px;
+    font-weight: lighter;
+    font-stretch: expanded;
+    font-size: large;
+    color:white;
+    border:none;
+}
+.hr-theme-slash-2 {
+    display: flex;
+}  
+    .hr-line {
+      width: 100%;
+      position: relative;
+      margin: 15px;
+      border-bottom: 1px solid #000;
+    }
+    .hr-icon {
+      position: relative;
+      top: 3px;
+      color: #FF0000;
+    }
